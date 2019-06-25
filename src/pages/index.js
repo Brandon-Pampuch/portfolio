@@ -7,7 +7,7 @@ import styles from './index.module.scss'
 export default ({ data }) => (
   <Layout >
     <div className={styles.background}>
-    <h1></h1>
+      <h1 className={styles.heroText}>hello, welcome.</h1>
     </div>
 </Layout>
 )

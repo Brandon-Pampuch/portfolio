@@ -1,6 +1,8 @@
 
 .header {
-    padding: 1rem 0 3rem;
+    display: flex;
+    padding: 1rem 0 0;
+    background-color: #EAD6CB;
 
 }
 
@@ -9,18 +11,30 @@
     font-size: 3rem;
     text-decoration: none;
 }
-
+// .nav-list::after{
+//     content: "";
+//     border: .5px solid black;
+//     width: 300px;
+//     display: block;
+// }
 .nav-list {
-    display: flex;
+   
     list-style-type: none;
-    margin: 0;
+    margin-left: 100px;
+    border-left: 0.2px solid black;
+    padding-left: 20px;
+    
+   
 }
 
 .nav-item {
-    color: #999999;
+    color: #1E1E1E;
     font-size: .9rem;
     margin-right: 1.3rem;
     text-decoration: none;
+    font-weight: 100;
+    font-style: italic;
+    
 
 }
 
@@ -29,7 +43,7 @@
 }
 
 .active {
-    color:black;;
+    color:#CB1F1F;;
 }
 
 

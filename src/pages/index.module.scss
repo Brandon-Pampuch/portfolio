@@ -1,6 +1,33 @@
 .background {
-    background-image: url('../../public/assets/glasses.jpg');
-    background-repeat: no-repeat;
+ 
+    background-color: #EAD6CB;
+    min-height: 80vh;
     background-size: cover;
  
 }
+
+ .background::after{
+     content: "";
+     border: .3px solid #CB1F1F;
+     width: 95%;
+     margin: 0 auto;
+     display: block;
+    
+ }
+
+ .heroText {
+    text-shadow: 5px 2px 3px rgba(255,255,255,0.5);
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 8.5rem;
+    line-height: 148.8%;
+    letter-spacing: 0.025em;
+    margin-left:100px;
+    margin-bottom: 200px;
+    border-left: 1px solid black;
+    padding-left:130px;
+    height: 300px;
+    
+    color: #FFFFFF;
+ }
