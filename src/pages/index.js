@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../layouts/Layout"
 import styles from "./index.module.scss"
 
-export default ({ data }) => (
+export default () => (
   <Layout>
     <div className={styles.background}>
       <p className={styles.inspiredText}>INSPIRED</p>

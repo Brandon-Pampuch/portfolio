@@ -36,16 +36,18 @@
  }
 
  .border {
-     border-top: 1px solid black;
+     border-top: 1px solid rgba(203, 31, 31, 0.31);
      border-left: 1px solid black;
      height:200px;
-     margin-left: 100px
+     margin-left: 100px;
+     width: 90%;
+     
    
  }
 
  .box {
      position: absolute;
-   border-bottom: 1px solid black;
+   border-bottom: 1px solid rgba(203, 31, 31, 0.31);
    border-right: 1px solid black;
    width:101px;
    margin-top: 500px;
@@ -59,7 +61,19 @@
     top: 550px;
     left:30px;
     width:101px;
+    
     transform: rotate(270deg);
+
+
+font-style: normal;
+font-weight: normal;
+font-size: 1.1rem;
+line-height: 148.8%;
+/* or 143px */
+
+letter-spacing: 0.035em;
+
+color: rgba(203, 31, 31, 0.31);
     
 
   
