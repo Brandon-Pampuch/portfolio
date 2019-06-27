@@ -6,8 +6,8 @@ const Header = () => {
   return (
     <header className={styles.header}>
    
-      <nav>
-        <div>
+      <nav className={styles.nav}>
+       
           <ul className={styles.navList}>
             <li>
               <Link className={styles.navItem} activeClassName={styles.active} to="/contact">
@@ -24,7 +24,7 @@ const Header = () => {
               <Link className={styles.navItem} activeClassName={styles.active} to="/blog"># blog</Link>
             </li>
           </ul>
-        </div>
+      
       </nav>
     </header>
   )
