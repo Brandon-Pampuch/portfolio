@@ -7,7 +7,7 @@ const Header = () => {
     return ( 
         <footer className={styles.footer}>
            
-            <li>Footer</li>
+            {/* <li>Footer</li> */}
            
           
 
